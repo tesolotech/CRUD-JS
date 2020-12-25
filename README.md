@@ -1,2 +1,0 @@
-# CRUD-JS
-Javascript Handson
