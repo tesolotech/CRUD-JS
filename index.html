@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRUD Operation in javascript</title>
+	<script type="text/javascript" src="script.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+</head>
+<body>
+
+	<div class="container">	
+		<form onsubmit="event.preventDefault(); onFormSubmit();" autocomplete ="off">
+			<label>Name</label>
+			<input type="text" name="name" id="name"><br>
+			<label>Mobile</label>
+			<input type="number" name="mob" id="mobile"><br>
+			<label>Email</label>
+			<input type="email" name="email" id="email"><br>
+			<label>password</label>
+			<input type="password" name="pass" id="password"><br>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+
+	<div id="tableview">
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Mobile</th>
+					<th>Email</th>
+					<th>Password</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				
+			</tbody>
+		</table>
+	</div>
+
+</body>
+</html>
